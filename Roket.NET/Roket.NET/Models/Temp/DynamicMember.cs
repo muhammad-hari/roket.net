@@ -1,0 +1,75 @@
+﻿namespace Roket.NET.Models
+{
+    public class DynamicMember
+    {
+        public string MID { get; set; }
+        public string BNO { get; set; }
+        public string RecMode { get; set; }
+        public string RecType { get; set; }
+        public string PayorID { get; set; }
+        public string MemberID { get; set; }
+        public string MappingID { get; set; }
+        public string SMIID { get; set; }
+        public string CorporateID { get; set; }
+        public string NIK { get; set; }
+        public string Division { get; set; }
+        public string BranchCode { get; set; }
+        public string BankInfo { get; set; }
+        public string Language { get; set; }
+        public string TypeOfWork { get; set; }
+        public string Race { get; set; }
+        public string PolicyNumber { get; set; }
+        public string MaritalStatus { get; set; }
+        public string Relationship { get; set; }
+        public string EffectiveDate { get; set; }
+        public string ExpiryDate { get; set; }
+        public string CardNumber { get; set; }
+        public string MemberName { get; set; }
+        public string Address1 { get; set; }
+        public string Address2 { get; set; }
+        public string Address3 { get; set; }
+        public string Address4 { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
+        public string PostCode { get; set; }
+        public string TelephoneOffice { get; set; }
+        public string TelephoneRes { get; set; }
+        public string TelephoneMobile { get; set; }
+        public string NRIC { get; set; }
+        public string PassportNo { get; set; }
+        public string PassportCountry { get; set; }
+        public string DateOfBirth { get; set; }
+        public string DateTerminated { get; set; }
+        public string Sex { get; set; }
+        public string PlanID { get; set; }
+        public string EmploymentStatus { get; set; }
+        public string IU1 { get; set; }
+        public string IU2 { get; set; }
+        public string IU3 { get; set; }
+        public string IU4 { get; set; }
+        public string IU5 { get; set; }
+        public string IU6 { get; set; }
+        public string IU7 { get; set; }
+        public string IU8 { get; set; }
+        public string IU9 { get; set; }
+        public string IU10 { get; set; }
+        public string IU11 { get; set; }
+        public string IU12 { get; set; }
+        public string IU13 { get; set; }
+        public string IU14 { get; set; }
+        public string IU15 { get; set; }
+        public string IU16 { get; set; }
+        public string IU17 { get; set; }
+        public string IU18 { get; set; }
+        public string IU19 { get; set; }
+        public string TermDate { get; set; }
+        public string PreExisting { get; set; }
+        public string Remarks { get; set; }
+        public string MemberSince { get; set; }
+        public string MemberSuspended { get; set; }
+        public string PolicyInForce { get; set; }
+        public string PolicySuspended { get; set; }
+        public string RenewalActivationDate { get; set; }
+        public string OptionMode { get; set; }
+    }
+}
