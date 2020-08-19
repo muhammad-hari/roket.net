@@ -1,12 +1,11 @@
 ﻿using Newtonsoft.Json;
+using Roket.NET.Models.API;
 using System;
 
 namespace Roket.NET
 {
     public class ResultResponse<T>
     {
-        [JsonProperty(PropertyName = "identifier")]
-        public string Identifier { get; set; }
 
         [JsonProperty(PropertyName = "requestAt")]
         public DateTime RequestAt { get; set; }
@@ -16,6 +15,9 @@ namespace Roket.NET
 
         [JsonProperty(PropertyName = "requestToken")]
         public string RequestToken { get; set; }
+
+        [JsonProperty(PropertyName = "apiInfo")]
+        public ApiConfig ApiInfo { get; set; }
 
         [JsonProperty(PropertyName = "data")]
         public T Data { get; set; }

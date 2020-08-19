@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Roket.NET">
+      <HintPath>..\Roket.NET\bin\Debug\netcoreapp3.1\Roket.NET.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
