@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.29905.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Roket.NET", "Roket.NET\Roket.NET.csproj", "{15BEFD08-B7B2-4F7F-B79C-7D8B987DCED2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemoTest", "DemoTest\DemoTest.csproj", "{B2F542FE-A2FB-4A1B-B50B-046BEE5A625C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoTest", "DemoTest\DemoTest.csproj", "{B2F542FE-A2FB-4A1B-B50B-046BEE5A625C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Roket.Console", "Roket.Console\Roket.Console.csproj", "{371572EE-F6E6-40F5-8952-4C9BAFFE462A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{B2F542FE-A2FB-4A1B-B50B-046BEE5A625C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B2F542FE-A2FB-4A1B-B50B-046BEE5A625C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B2F542FE-A2FB-4A1B-B50B-046BEE5A625C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{371572EE-F6E6-40F5-8952-4C9BAFFE462A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{371572EE-F6E6-40F5-8952-4C9BAFFE462A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{371572EE-F6E6-40F5-8952-4C9BAFFE462A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{371572EE-F6E6-40F5-8952-4C9BAFFE462A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
